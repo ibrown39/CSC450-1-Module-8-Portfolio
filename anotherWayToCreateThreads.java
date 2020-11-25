@@ -31,6 +31,11 @@ public class Main {
             System.out.println("I am a thread via extend Thread and using an object (eTC5)");
         }
     }
+    public static class exampleThreadClass6 extends Thread{
+        public void run(){
+            System.out.println("I am a thread via extend Thread, using an object (t6), and t6.start()");
+        }
+    }
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
@@ -41,6 +46,8 @@ public class Main {
 		Thread t4 = new Thread(eTC4); //t4
 		exampleThreadClass5 eTC5 = new exampleThreadClass5();//obj that is instance of exampleThreadClass5
 		Thread t5 = new Thread(eTC5);//t5
+		exampleThreadClass6 t6 = new exampleThreadClass6();
+		t6.start();
 		
 		
 		
