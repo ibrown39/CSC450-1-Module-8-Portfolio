@@ -39,7 +39,7 @@ public class Main {
 		Thread t3 = new Thread(new exampleThreadClass3()); //t3
 		exampleThreadClass4 eTC4 = new exampleThreadClass4(); //obj that is instance of exampleThreadClass3
 		Thread t4 = new Thread(eTC4); //t4
-		exampleThreadClass5 eTC5 = new exampleThreadClass5();////obj that is instance of exampleThreadClass5
+		exampleThreadClass5 eTC5 = new exampleThreadClass5();//obj that is instance of exampleThreadClass5
 		Thread t5 = new Thread(eTC5);//t5
 		
 		
