@@ -47,7 +47,7 @@ public class Main {
 		exampleThreadClass5 eTC5 = new exampleThreadClass5();//obj that is instance of exampleThreadClass5
 		Thread t5 = new Thread(eTC5);//t5, creating an instance of Thread using the eTC5 obj
 		exampleThreadClass6 t6 = new exampleThreadClass6();
-		t6.start();
+		t6.start(); //exampleThreadClass6 is already an instance of Thread, and t6 an isntance of exampleThreadClass6
 		
 		
 		
