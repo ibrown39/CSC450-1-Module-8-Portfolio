@@ -49,8 +49,8 @@ public class Main {
 		exampleThreadClass6 t6 = new exampleThreadClass6();
 		t6.start(); //exampleThreadClass6 is already an instance of Thread, and t6 an isntance of exampleThreadClass6
 		new Thread(() -> {System.out.println("I am a thread via instance of thread and lamba");}).start(); //t7
-		Thread t8 = new Thread(() -> {System.out.println("I am a thread via instane of thread, t8, and lamba");});
-		t8.start();
+		Thread t8 = new Thread(() -> {System.out.println("I am a thread via instane of thread, t8, and lamba");}); //creating t8, an instance of thread, using lambda with the () being the action the thread executes.
+		t8.start(); //t8
 		
 }
 }
